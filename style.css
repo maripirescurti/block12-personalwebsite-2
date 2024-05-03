@@ -1,0 +1,42 @@
+html {
+  margin: 0px;
+  font-family: 'Teachers';
+}
+
+nav {
+  display: block;
+  background-color: rgb(255, 208, 0);
+  width: 100vw;
+  height: 2em;
+  margin: 0px;
+  text-transform: uppercase;
+  position: fixed;
+  vertical-align: middle;
+}
+
+#name {
+  width: 20vw;
+  display: inline-block;
+  text-align: center;
+  color: black;
+  width: 20em;
+}
+
+#top-menu {
+  display:inline;
+  width: 80vw;
+  outline: 1px solid black;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 4rem;
+  margin-right: ;
+}
+
+div>a {
+  color: black;
+}
+
+img {
+  width: 20em;
+  margin-top: 5em;
+}
