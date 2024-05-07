@@ -8,6 +8,7 @@ html {
   font-family: 'Teachers';
 }
 
+/* HEADER STYLES */
 .container {
   display: inline-block;
   width: 80vw;
@@ -21,12 +22,17 @@ html {
   padding: 1em;
 }
 
+.container .navbar h1 {
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
 .container .menu-box {
   position: fixed;
   top: 0px;
   right: 0px;
   width: 20vw;
-  height: 93vh;
+  height: 100vh;
   background-color: white;
   outline: 1px solid black;
   /* align-items: center; */
@@ -39,12 +45,12 @@ html {
 }
 
 .menu-box nav {
-  /* padding-top: 1em; */
+  padding-top: 1em;
 }
 
 .menu-box nav ul li {
   list-style: none;
-  margin: 1em;
+  margin: 1em 2em;
   text-align: center;
 }
 
@@ -52,42 +58,87 @@ html {
   text-decoration: none;
   color: black;
   display: block;
+  /* margin: 2em; */
   padding: .5em;
 }
-
-.menu-box nav ul li .current {
-  text-decoration: underline;
+ /* makes current page have an outline box */
+.current {
+  border: 1px solid black;
 }
 
-.img-box{
-  align-items: center;
+/* MAIN STYLES */
+.img-mari{
+  width: 80vw;
+  text-align: center;
+  margin-top: 2em;
+  /* align-items: center; */
 }
 
-.img-box img {
-  display: block;
-  width: 20em;
-}
-
-footer .footer-container {
+.img-mari img {
   display: inline-block;
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+  text-align: center;
+  border: .5em outset rgb(0, 0, 0);
+}
+
+.text-intro {
+  display: inline-block;
+  width: 80vw;
+}
+
+p {
+  padding: 1em;
+  text-align: center;
+  max-width: 20em;
+  margin: 0 auto;
+}
+
+.quote {
+  font-style: italic;
+}
+
+/* FOOTER STYLES */
+footer {
   position: fixed;
   background-color: white;
   bottom: 0px;
-  right: 0px;
+  left: 0px;
   outline: 1px solid black;
   width: 100vw;
-  height: 7vh;
+  height: 3em;
   text-align: center;
 }
 
-footer .footer-container a {
+/* aligning bottom icons to center of title and img */
+footer .footer-container {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  /* outline: 1px solid black; */
+  width: 80vw;
+  height: 3em;
+}
 
+footer .footer-container div {
+  display: inline;
 }
 
 footer .footer-container a img {
-  width: 5vh;
   display: inline-block;
-  padding: 1vh;
-  /* margin: 1vh; */
+  height: 2em;
+  width: 2em;
+  margin: 1vh;
+  outline: 2px solid black;
+  border-radius: 100%;
   text-decoration: none;
+}
+
+/* wanted to make this logo with roughly same border thickness as other */
+#oma-logo {
+  height: 1.8em;
+  width: 1.8em;
+  outline: 0.2em solid black;
+  border-radius: 100%;
 }
