@@ -18,9 +18,7 @@ html {
 
 .container .navbar {
   display: inline-block;
-  text-align: center;
   padding: 1em;
-  
 }
 
 .container .menu-box {
@@ -28,7 +26,7 @@ html {
   top: 0px;
   right: 0px;
   width: 20vw;
-  height: 100vh;
+  height: 93vh;
   background-color: white;
   outline: 1px solid black;
   /* align-items: center; */
@@ -57,7 +55,7 @@ html {
   padding: .5em;
 }
 
-.menu-box nav ul li #current {
+.menu-box nav ul li .current {
   text-decoration: underline;
 }
 
@@ -68,7 +66,28 @@ html {
 .img-box img {
   display: block;
   width: 20em;
-  /* margin: 10em;
-  padding: .5em; */
-  ali
+}
+
+footer .footer-container {
+  display: inline-block;
+  position: fixed;
+  background-color: white;
+  bottom: 0px;
+  right: 0px;
+  outline: 1px solid black;
+  width: 100vw;
+  height: 7vh;
+  text-align: center;
+}
+
+footer .footer-container a {
+
+}
+
+footer .footer-container a img {
+  width: 5vh;
+  display: inline-block;
+  padding: 1vh;
+  /* margin: 1vh; */
+  text-decoration: none;
 }
