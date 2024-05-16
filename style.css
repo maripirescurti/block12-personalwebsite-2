@@ -18,6 +18,7 @@ html {
   text-align: center;
   outline: 2px solid black;
   background-color: magenta;
+  z-index: 1;
 }
 
 /* top bar with name */
@@ -42,6 +43,7 @@ html {
   height: 100%;
   background-color: yellow;
   outline: 2px solid black;
+  z-index: 2;
 }
 
 /* menu icon on top of side bar */
@@ -137,7 +139,6 @@ main {
 .sec-about {
   width: 100%;
   text-align: left;
-  z-index: -3;
 }
 
 /* img div style */
@@ -173,11 +174,11 @@ main {
 
 /* FORM STYLES */
 
-.contact-main {
-  padding-top: 20%;
+.contact-bar {
+  margin-top: 1em;
 }
 
-h2 {
+.contact-bar>h2 {
   display: block;
   text-align: center;
 }
@@ -216,6 +217,7 @@ footer {
   width: 100vw;
   height: 3em;
   text-align: center;
+  z-index: 3;
 }
 
 /* aligning bottom icons to center of title and img */
