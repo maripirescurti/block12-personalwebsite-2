@@ -23,59 +23,36 @@
         <nav>
           <ul>
             <li><a href="home.html">Home</a></li>
-            <li><a class="current" href="about.html">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="current" href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
-  <main id="main-about">
-    <section class="sec-about">
-      <div class="img-about">
-        <img class="img-about-01" src="img/70B10E03-7FD9-4CAD-A32B-710D9A477E7A.JPG" alt="Simbinha Headshot">
+  <main>
+    <h2 class="contact-text">Contact Me!</h2>
+
+    <form id="form" action="success.html">
+      <div class="form-line">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name">
+      </div>
+      
+      <div class="form-line">
+        <label for="Email">Email:</label>
+        <input type="text" name="Email" id="Email">
       </div>
 
-      <div class="text-body">
-        <h2>Simba</h2>
-        <p>
-          Simba is the best company a person
-          could hope for, he is loyal, funny
-          and the bravest. To top it off he's
-          also unbelievably cute
-        </p>
+      <div class="form-line">
+        <label for="message">Leave a message:</label>
+        <textarea name="message" id="message" rows="5" cols="20"></textarea>
       </div>
-    </section>
-
-    <section class="sec-about">
-      <div class="img-about">
-        <img class="img-about-02" src="img/12B98761-E13B-42E9-BBB4-C21F86921B60_1_105_c.jpeg" alt="Curti Family Trip">
-      </div>
-
-      <div class="text-body">
-        <h2>Family</h2>
-        <p>
-          My favorite people in the world
-          and the best time spent is in their company.
-        </p>
-      </div>
-    </section>
-
-    <section class="sec-about">
-      <div class="img-about">
-        <img class="img-about-03" src="img/718657B8-1C85-420B-BDEC-BA53C5BC61C0_1_105_c.jpeg" alt="Beach Brothers">
-      </div>
-
-      <div class="text-body">
-        <h2>Brazil</h2>
-        <p>
-          My favorite country, where I am from and where
-          I always long to be. 
-        </p>
-      </div>
-    </section>
+      
+      <button id="submit" type="submit">Submit</button>
+    </form>
   </main>
 
   <footer>
@@ -100,4 +77,3 @@
     </div>
   </footer>
 </body>
-</html>
