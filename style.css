@@ -51,7 +51,7 @@ html {
   width: 5vw;
   height: 5vw;
   padding: 1em 7.5vw;
-  background-color:aliceblue ;
+  /* background-color:aliceblue ; */
 }
 
 /* links div in side menu */
@@ -72,7 +72,7 @@ html {
   /* margin: 1em 2em; */
   margin-bottom: 1em;
   text-align: center;
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 /* links in side menu */
